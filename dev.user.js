@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Dummy script to require the script
+// @name         Auto Read Aloud on ChatGPT Dummy
 // @namespace    https://github.com/iha-hiroa/
 // @copyright    MIT
 // @version      0.1
@@ -8,7 +8,7 @@
 // @match        https://chatgpt.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
 // @grant        none
-// @require      https://github.com/hiroa-inami/Auto-Read-Aloud-on-ChatGPT/raw/refs/heads/0.2/main.user.js
+// @require      file:///C:/github/Auto-Read-Aloud-on-ChatGPT_/main.user.js
 // ==/UserScript==
 
 (function() {
