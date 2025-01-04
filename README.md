@@ -18,7 +18,7 @@ Feel free to adjust/re-publish the script.
 # How works
 1. Every 1 second, check the element 'button[aria-label="Read aloud"]'
 2. If find it, and it's not clicked before, click it.
-```
+```js
 (function() {
     // Initialize a Set to keep track of clicked button selectors
     const clickedButtons = new Set();
