@@ -27,15 +27,6 @@
         return gptTurns
     }
 
-    function getOldTurns(){
-        const oldResponses = []
-        const gptTurns = getGptTurns();
-        for (const [i, turn] of gptTurns.entries()) {
-            oldResponses.push(turn);
-        }
-        return oldResponses
-    }
-
     function getNewTurn(){
         const gptTurns = getGptTurns();
         for (const [i, turn] of gptTurns.entries()) {
@@ -76,7 +67,7 @@
 
     function init(){
         console.log("init: Auto Read Aloud on ChatGPT")
-        playedTurns.push(...getOldTurns())
+        playedTurns.push(...getGptTurns())
         setInterval(parseMain, PARSE_INTERVAL)
     }
 
