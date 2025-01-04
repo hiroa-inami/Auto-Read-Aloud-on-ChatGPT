@@ -1,7 +1,8 @@
 # Auto Read Aloud on ChatGPT
 userscript that automatically clicks "Read aloud" buttons on chatgpt.com  
+Only works on chrome/tampermonkey
 
-Tested 2024/11/30 on chrome/tampermonkey  
+Tested 2024/11/30
 I'm using this script myself, bugfix likely come quick but not guaranteed.  
 I'm not watching issues, my reaction will be slow and not guaranteed.  
 Feel free to adjust/re-publish the script.
